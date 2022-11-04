@@ -1,0 +1,150 @@
+<!--HTML Basic to table
+Your Assignment
+1. Review the tutorial link sections from the left Menu HTML Basic through HTML Tables to learn HTML concepts.  These
+sections will give you enough information to complete the assignment.  You should do them in order so that each builds
+more knowledge upon the previous topic.
+2. Create a new web page in the assessment Code editor using what you learned from the tutorial.  The results will be
+displayed in the Display window.  Your page should fulfill the following minimum specifications:
+a. Heading centered H1 with text "My First HTML Page" color dark blue. 
+b. Paragraph with at least 30 words describing the page.  You can copy text from anywhere or make it up.
+c. Two pictures from the image library folder side by side 200x300 pixels each with alt text description. 
+You can access the image library folder by clicking on the Images bar above the Code and Display windows to expand the
+folder to show thumbnails of the available images.  To use an image just click on it to copy its URL to the clipboard
+then you can paste the URL into your code.  To shrink the image library folder just click on the Images bar again. 
+d. Centered menu with 4 buttons light blue with black text labels (descriptive) with links to 4 external websites of
+your choice. Links must open in a new window or tab using the target="_blank" attribute. 
+This assessment system uses iframes to view separate windows within a single page.  Note that some websites will not
+open within another page or iframe.  Those sites must be linked using the target="_blank" attribute or they will not
+operate with your project.   
+e. A simple HTML table with a Header containing Firstname, Lastname, City, State, and Birth Month.  The table must have
+5 elements centered under each column.  You make up names and etc.   
+You may add additional complexity to show off your stuff!
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Title tag for My First HTML Page -->
+    <title>My First HTML Page</title>
+
+    <!-- Using CSS Style for HTML code -->
+    <style>
+        /* Implemented style in heading tag 1: color is darkblue and text-align should be in the center */
+        h1 {
+            color: darkblue;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        /* Implemented style in myWebsites class according to the given instructions */
+        .myWebsites {
+            text-align: center;
+            background-color: lightblue;
+            color: black;
+            text-decoration: none;
+        }
+
+        /* Implemented style in the table tag wheere border is 2px solid and color is black */
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            color: black;
+        }
+    </style>
+    <!-- End of the Style code -->
+</head>
+<!-- End of the head tag -->
+
+<!-- Start of the body tag -->
+<body>
+
+    <!-- Created heading 1 tag -->
+    <h1>My First HTML Page</h1>
+
+    <!-- Created paragraph tag with the length of 30 words -->
+    <p> A document which can be displayed in a web browser
+        such as Firefox, Google Chrome, Opera, Microsoft
+        Internet Explorer or Edge, or Apple's Safari. These
+        are also often called just "pages." website. A collection
+        of web pages which are grouped together and usually connected
+        together in various ways.
+    </p>
+    <br> <!-- Used br tag to break the line -->
+
+    <!-- Implemented img src tag to display the image and display the two images with alt tag -->
+    <img src="https://yorkdevtraining.com/images/york-solutions/d2367c7fb1feebcd12add0ff4189502c.png" width="200px"
+        height="300px" alt="This is an apple">
+    <img src="https://yorkdevtraining.com/images/york-solutions/B3-DM067_RIGHTS_P_20190319162958.jpg" width="200px"
+        height="300px" alt="This is a house">
+
+    <!-- Used br tag to break the line -->
+    <br>
+    <br>
+
+    <!-- Created myWebsites class with the help of div class and implemented a href (hyperlink referance) attributes to insert four websites -->
+    <div class="myWebsites">
+        <a href="https://www.amazon.com/" target="_blank">Welcome to Amazon</a> <br>
+        <a href="https://www.ebay.com/" target="_blank">Welcome to eBay</a> <br>
+        <a href="https://www.etsy.com/" target="_blank">Welcome to Etsy</a> <br>
+        <a href="https://www.apple.com/" target="_blank">Welcome to Apple</a>
+    </div>
+    <!-- End of the div class -->
+
+    <br>
+
+    <!-- Implemented table tag to display the table content with the help of table row, table head, and table data -->
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Birth Month</th>
+        </tr>
+        <tr>
+            <td>Pramod </td>
+            <td>Rai</td>
+            <td>Aurora</td>
+            <td>Co</td>
+            <td>August</td>
+        </tr>
+        <tr>
+            <td>John </td>
+            <td>Doe</td>
+            <td>Dallas</td>
+            <td>Texas</td>
+            <td>January</td>
+        </tr>
+        <tr>
+            <td>Steve </td>
+            <td>Jobs</td>
+            <td>San</td>
+            <td>California</td>
+            <td>February</td>
+        </tr>
+        <tr>
+            <td>Jeff </td>
+            <td>Bezos</td>
+            <td>los Vegas</td>
+            <td>Nevada</td>
+            <td>May</td>
+        </tr>
+        <tr>
+            <td>James </td>
+            <td>Knight</td>
+            <td>Centiniel</td>
+            <td>Co</td>
+            <td>April</td>
+        </tr>
+    </table>
+    <!-- End of the table tag -->
+
+</body>
+
+</html>
+<!-- End of the body tag -->
+<!-- End of the html tag -->
